@@ -1,0 +1,154 @@
+:root {
+  --back: #202020;
+  font-family: 'Poppins', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: #2cce00;
+}
+a:hover {
+  color: red;
+}
+a:visited {
+  text-decoration: none;
+}
+input,select{
+  font-family: 'Poppins', sans-serif;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+hr{
+  border: none;
+  border-bottom: 1px solid var(--no4);
+}
+code{
+  background-color: rgba(255,255,255,0.4);
+  padding: 0px 3px;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 65em) {
+  html{
+    width:100%;
+    margin: 0px auto;
+  }
+  body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    background-color: var(--no1);
+    color: var(--no4);
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    width:100%;
+  }
+  .navigator{
+    font-size: 20px;
+    max-width: 1200px;
+    margin: 0px auto 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo:hover{
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+  }
+  .nav-link{
+    padding: 20px;
+    color: black;
+    font-weight: bold;
+  }
+  .nav-link:hover{
+    color: darkblue;
+    border-bottom: 2px solid darkblue;
+  }
+  .introduction{
+    background-image: url("./../image/back.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .intro{
+    color: white;
+    max-width: 1200px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 70px 0px;
+  }
+  .name{
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .tag{
+    font-size: 20px;
+  }
+  .more{
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px 15px;
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+  .more:hover{
+    color: white;
+    background-color: rgba(0,0,0,0);
+    border: 2px solid white;
+  }
+  .objective{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 40px 0px;
+  }
+  .obj-name{
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .obj-name span{
+    display: block;
+    color: green;
+    font-weight: bold;
+  }
+  .obj-name b{
+    font-size: 25px;
+  }
+  .obj-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+  .obj-item{
+    padding: 10px;
+    margin: 0px 10px;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    text-align: center;
+  }
+  .obj-item b{
+    display: block;
+    padding: 0px;
+    margin: 0px 0px 10px 0px;
+    color: green;
+  }
+
+
+
+
+
+
+
+
+
+
+
+}
