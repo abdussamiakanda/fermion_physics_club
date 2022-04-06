@@ -71,6 +71,10 @@ code{
     color: darkblue;
     border-bottom: 2px solid darkblue;
   }
+  .active{
+    color: darkblue;
+    border-bottom: 2px solid darkblue;
+  }
   .dropdown{
     position: relative;
     display: inline-block;
@@ -98,48 +102,14 @@ code{
     color: white;
     background-color: rgba(255, 255, 255, 0.3);
   }
-  .introduction{
-    background-image: url("./../image/back.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .intro{
-    color: white;
-    max-width: 1200px;
-    margin: 0px auto;
-    text-align: center;
-    padding: 70px 0px;
-  }
-  .name{
-    font-size: 50px;
-    font-weight: bold;
-  }
-  .tag{
-    font-size: 20px;
-  }
-  .more{
-    display: inline-block;
-    font-weight: bold;
-    margin-top: 10px;
-    padding: 10px 15px;
-    color: black;
-    background-color: white;
-    border: 2px solid white;
-    border-radius: 5px;
-  }
-  .more:hover{
-    color: white;
-    background-color: rgba(0,0,0,0);
-  }
+
+
   .objective{
     max-width: 1200px;
     margin: 0px auto;
     padding: 40px 0px;
-    text-align: center;
   }
   .obj-name{
-    text-align: center;
     padding-bottom: 30px;
   }
   .obj-name span{
@@ -152,8 +122,6 @@ code{
   }
   .obj-div{
     display: flex;
-    justify-content: space-around;
-    align-items: stretch;
   }
   .obj-item{
     padding: 10px;
@@ -169,44 +137,55 @@ code{
     margin: 0px 0px 10px 0px;
     color: green;
   }
-  .course-item{
-    padding: 0px;
-    width: 1000px;
-    font-size: 14px;
-    margin: 0px 10px;
-    box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
-    border-radius: 5px;
+  .center{
     text-align: center;
+  }
+  .center div{
+    padding: 5px;
+  }
+  .obj-div img{
+    width: 300px;
+    border-radius: 5px 5px;
+    margin-right: 10px;
+  }
+  .obj-div b{
+    display: block;
+    padding: 0px;
+    margin: 5px 0px;
+    font-size: 30px;
+  }
+  .info{
+    padding-left: 20px;
+  }
+
+
+  .details{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 0px 40px 0px;;
+  }
+  .button{
+    width: 280px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px 5px;
+    margin: 2px;
     cursor: pointer;
   }
-  .course-item:hover{
-    box-shadow: 0px 5px 5px rgba(256,0,0,0.5);
-  }
-  .course-item img{
-    width: 100%;
-    border-radius: 5px 5px 0px 0px;
-  }
-  .course-item b{
-    display: block;
-    padding: 5px;
-    margin: 0px;
-    font-size: 18px;
-    color: green;
-  }
-  .more2{
-    display: inline-block;
-    font-weight: bold;
-    margin: 20px auto 0px auto;
-    padding: 10px 15px;
-    color: darkgreen;
-    background-color: rgba(0,0,0,0);
-    border: 2px solid darkgreen;
-    border-radius: 5px;
-  }
-  .more2:hover{
+  .button:hover{
     color: white;
-    background-color: darkgreen;
+    background-color: rgba(0, 0, 0, 0.5);
   }
+  .selected{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .selected:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+
+
   .footer{
     background-color: #343a40;
     padding: 40px 0px;
