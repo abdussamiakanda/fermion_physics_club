@@ -67,10 +67,10 @@
     <section class="details">
       <div class="obj-div">
         <div>
-          <div class="button selected">Overview</div>
-          <div class="button">Course Outline</div>
-          <div class="button">Lecture Notes</div>
-          <div class="button">Lecture Videos</div>
+          <div class="button selected" id="btn0" onclick="show('btn0')">Overview</div>
+          <div class="button" id="btn1" onclick="show('btn1')">Course Outline</div>
+          <div class="button" id="btn2" onclick="show('btn2')">Lecture Notes</div>
+          <div class="button" id="btn3" onclick="show('btn3')">Lecture Videos</div>
         </div>
         <div class="info">
 
@@ -100,14 +100,21 @@
           <div class="hide" id="notes">
             <h3>Book Reference:</h3>
             <ul>
-              <li>gshadf</li>
+              <li> <a href="https://drive.google.com/uc?export=download&id=1kssnlerVPxLOGSbzJlLl0ptbVa_tCgmS">Classical Electromagnetism by Jerrold Franklin</a> </li>
+              <li> <a href="https://drive.google.com/uc?export=download&id=1BJxGVnwYY9rnt0EeFX9n7ePBJ51HTRpe">Electricity and Magnetism by Edward M. Purcell</a> </li>
+              <li> <a href="https://drive.google.com/uc?export=download&id=16h2lAdrARMD-UIBfAfv-1utKLqhTqEBT">Feynman Lectures Vol. III by Richard P. Feynman</a> </li>
+            </ul>
+            <h3>Lecture Notes:</h3>
+            <ul>
+              <li> <a href="https://drive.google.com/uc?export=download&id=">Lecture Note 01</a> </li>
+              <li> <a href="https://drive.google.com/uc?export=download&id=">Lecture Note 02</a> </li>
+              <li> <a href="https://drive.google.com/uc?export=download&id=">Lecture Note 03</a> </li>
             </ul>
           </div>
 
-          <div class="hide" id="videos">
-
+          <div class="hide player" id="videos">
+            <iframe class="playlist" src="https://www.youtube.com/embed/videoseries?list=PLR5r8DDZi7Z1qyPVCMCf1BaSpnypw321t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-
 
         </div>
       </div>

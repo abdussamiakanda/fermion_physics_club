@@ -156,7 +156,9 @@ code{
   }
   .info{
     padding-left: 20px;
+    width: 100%;
   }
+
 
 
   .details{
@@ -182,6 +184,17 @@ code{
   }
   .selected:hover{
     background-color: rgba(0, 0, 0, 0.6);
+  }
+  .player{
+    padding-bottom: 56.20%;
+    position: relative;
+  }
+  .playlist{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 
 
@@ -226,4 +239,9 @@ code{
 
 
 
+}
+
+
+.hide{
+  display: none;
 }
