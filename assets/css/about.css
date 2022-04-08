@@ -201,6 +201,56 @@ code{
     border: 1px solid black;
   }
 
+  .magz-item-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+  }
+  .magz-item-left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+  }
+  .div20{
+    width: 20%;
+    padding: 0px 10px;
+  }
+  .div20 img{
+    width: 100%;
+  }
+  .div80{
+    width: 80%;
+    padding: 0px 10px;
+  }
+  .div80 h2{
+    padding: 0px;
+    margin: 0px;
+  }
+  .button{
+    display: inline-block;
+    margin: 0px auto;
+    padding: 8px 15px;
+    background-color: darkgreen;
+    color: white;
+    border: 2px solid darkgreen;
+    border-radius: 5px;
+  }
+  .button:hover{
+    background-color: rgba(0,0,0,0);
+    color: darkgreen;
+  }
+  .flex{
+    display: flex;
+  }
+
+  .seminar-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
 
   .course-item{
     padding: 10px 0px;
