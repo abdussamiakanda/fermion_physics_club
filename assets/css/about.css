@@ -308,6 +308,13 @@ code{
     width: 50px;
   }
 
+  .katex {
+    font-size: 1.25em;
+    font-weight: 510;
+  }
+  .katex-display{
+    margin: 8px 0px;
+  }
 
 
 
