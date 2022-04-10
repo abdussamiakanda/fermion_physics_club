@@ -201,6 +201,22 @@ code{
     height: 150px;
     border-radius: 50%;
     border: 1px solid black;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+  }
+  .person2{
+    padding: 10px 20px;
+    text-align: center;
+  }
+  .person2 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
   }
 
   .magz-item-right{
