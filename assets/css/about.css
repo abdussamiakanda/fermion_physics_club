@@ -159,7 +159,8 @@ code{
   }
   .achieve-div img{
     display: block;
-    max-width: 95%;
+    max-width: 600px;
+    max-height: 500px;
     margin: 0px auto;
     text-align: center;
   }
@@ -254,10 +255,10 @@ code{
 
 
   .course-item{
-    padding: 10px 0px;
+    padding: 0px 0px;
     max-width: 280px;
     font-size: 14px;
-    margin: 0px 10px;
+    margin: 10px 10px;
     box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
     border-radius: 5px;
     text-align: center;
@@ -268,6 +269,8 @@ code{
   }
   .course-item img{
     width: 100%;
+    height: 200px;
+    object-fit: cover;
     border-radius: 5px 5px 0px 0px;
   }
   .course-item b{
@@ -309,7 +312,7 @@ code{
   }
 
   .katex {
-    font-size: 1.25em;
+    font-size: 1.2em;
     font-weight: 510;
   }
   .katex-display{

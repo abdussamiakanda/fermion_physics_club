@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="Gradient’s post-mortem - Post - Fermion Physics Club"/>
+    <meta property="og:image" content="https://drive.google.com/uc?export=download&id=1aEtv3aIiWhidF9EVkJaLKgi05vjX750L"/>
+    <link rel="shortcut icon" href="../assets/image/icon.png">
+    <script src="https://kit.fontawesome.com/1421ad6393.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.18/dist/katex.min.css" integrity="sha384-zTROYFVGOfTw7JV7KUu8udsvW2fx4lWOsCEDqhBreBwlHI4ioVRtmIvEThzJHGET" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/about.css">
+    <title>Gradient’s post-mortem - Post - Fermion Physics Club</title>
+  </head>
+  <body>
+
+    <section class="navigator">
+      <a href="../" class="logo"> <img src="../assets/image/logo.png" alt=""> </a>
+      <div class="">
+        <a href="../about" class="nav-link">ABOUT</a>
+        <div class="dropdown">
+          <a class="nav-link">EXPLORE</a>
+          <div class="drop-content">
+            <a href="../sessions" class="drop-item">Sessions</a>
+            <a href="../courses" class="drop-item">Courses</a>
+            <a target="_blank" href="https://library.fermionku.com/" class="drop-item"><i class="fas fa-external-link-alt"></i> Library</a>
+            <a href="../projects" class="drop-item">Projects</a>
+            <a href="../seminars" class="drop-item">Seminars</a>
+            <a href="../workshops" class="drop-item">Workshops</a>
+            <a href="../olympiads" class="drop-item">Olympiads</a>
+            <a href="../magazines" class="drop-item">Magazines</a>
+            <a href="../achievements" class="drop-item">Achievements</a>
+          </div>
+        </div>
+        <a href="../gallery" class="nav-link">GALLERY</a>
+        <a href="../peoples" class="nav-link">PEOPLES</a>
+        <a href="../posts" class="nav-link">POSTS</a>
+        <a href="../contact" class="nav-link">CONTACT</a>
+      </div>
+    </section>
+
+
+    <section class="objective">
+      <div class="obj-name">
+        <span>POST</span>
+        <b>Gradient’s post-mortem</b>
+        01 March 2020 | Md. Abdus Sami Akanda
+      </div>
+
+      <div class="achieve-div">
+
+        <p>
+          First, we’ll be introduced to the nabla operator, which is denoted by
+          $\bar{\nabla}$. This is a vector operator.
+
+          $$\bar{\nabla} = \hat{i} \frac{\partial}{\partial x} + \hat{j} \frac{\partial}{\partial y} + \hat{k} \frac{\partial}{\partial z}$$
+
+          An operator is something that acts on some quantity/function and makes
+          some changes to it according to some certain rules. The nabla operator
+          is constructed by taking the summation of all space derivative along
+          the directional unit vectors. It has no value unless it is acted upon
+          on some function.
+
+          <br><br>
+
+          The gradient is the multiplication of some scalar function to the operator,
+          which is denoted by grad($\Psi$) or $\bar{\nabla}\Psi$.
+
+          $$\bar{\nabla}\Psi = \hat{i} \frac{\partial \Psi}{\partial x} + \hat{j} \frac{\partial \Psi}{\partial y} + \hat{k} \frac{\partial \Psi}{\partial z}$$
+
+          As we can see the gradient of some scalar function is a vector quantity. It
+          contains directional unit vectors.
+
+          <br><br>
+
+          These all are just mathematics. But what does gradient means physically?
+          What happens when we take the gradient of some physical scalar quantity?
+
+          <br><br>
+
+          Such a physical scalar quantity is the temperature. Let us consider taking
+          the gradient of the temperature ($\Psi$).
+
+          <br><br>
+
+          $\bar{\nabla}\Psi$ has two characteristics, magnitude, and direction. The
+          magnitude is found by,
+
+          $$\left | \bar{\nabla}\Psi \right | = \sqrt{(\frac{\partial \Psi}{\partial x})^{2}+(\frac{\partial \Psi}{\partial y})^{2}+(\frac{\partial \Psi}{\partial z})^{2}}$$
+
+          The magnitude gives the change of the scalar function as the space change.
+          For a better view, let us consider one component of $\bar{\nabla}\Psi$ along
+          the $x$-axis. $\hat{i} \frac{\partial \Psi}{\partial x}$ is the change of the
+          scalar function with respect to $x$ along the $x$-axis.
+
+          <br><br>
+
+          The direction points towards the direction in which the function is increasing
+          most quickly with distance. So, if we take the gradient of temperature in a room
+          it will point towards the maximum value of temperature.
+
+          <br><br>
+
+          Let’s do an exercise. Let us consider a two-dimensional polar coordinate, where
+          the temperature follows the function $\Psi =\frac{1}{r}$. In this case, our nabla
+          operator is,
+
+          $$\bar{\nabla} = \hat{r} \frac{d}{dr} \quad \text{(Depends only on r)}$$
+
+          <img style="width:300px;padding:10px;" src="https://drive.google.com/uc?export=download&id=116zwueqP0glv2beBVwD5TGrzH84RwpxK" alt="">
+
+          First, let’s analyze the temperatures of our two-dimensional space. As we can
+          see in the figure, the temperature decreases as the distance increases. The unit
+          vector $\hat{r}$, points outward the circles.
+
+          <br><br>
+
+          Now we’ll take the gradient of temperature.
+
+          $$ \begin{align*}
+            \bar{\nabla}\Psi & = \hat{r} \frac{d\Psi}{dr} \\
+            & = \hat{r} \frac{d}{dr}(\frac{1}{r}) \\
+            & = - \hat{r} \frac{1}{r^2}
+          \end{align*} $$
+
+          Here, the direction is $-\hat{r}$, which points towards the center of the
+          coordinate. That is where the temperature is maximum. And, $\frac{1}{r^2}$
+          is the rate of change of temperature with distance.
+
+          <br><br>
+
+          And that’s the gradient for you. 😉
+
+        </p>
+
+      </div>
+    </section>
+
+
+    <section class="footer">
+      <div class="foot">
+        <div class="">
+          <img src="https://drive.google.com/uc?export=download&id=1vsXFOrUWKab-9SvZyH628LjNvsmlfysv" alt="">
+          <b>Fermion Physics Club</b>
+          A physics club working for the betterment of physics study.
+        </div>
+        <div class="">
+          <b>EXPLORE</b>
+          <a href="../sessions">Sessions</a> <br>
+          <a href="../courses">Courses</a> <br>
+          <a href="../competitions">Competitions</a>
+        </div>
+        <div class="">
+          <b>DISCOVER</b>
+          <a href="../about">About Us</a> <br>
+          <a href="../contact">Contact Us</a> <br>
+          <a href="../terms">Terms & Conditions</a>
+        </div>
+        <div class="">
+          <b>PROJECTS</b>
+          <a href="https://library.fermionku.com/" target="_blank">Library</a> <br>
+          <a href="../courses">Alumni Info</a> <br>
+          <a href="../projects/reports">Annual Reports</a>
+        </div>
+      </div>
+      Copyright © 2019 Fermion Physics Club; All rights reserved
+    </section>
+
+
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.18/dist/katex.min.js" integrity="sha384-GxNFqL3r9uRJQhR+47eDxuPoNE7yLftQM8LcxzgS4HT73tp970WS/wV5p8UzCOmb" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.18/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+    <script src="../assets/js/index.js"></script>
+  </body>
+</html>
