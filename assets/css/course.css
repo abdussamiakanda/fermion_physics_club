@@ -26,7 +26,6 @@ input[type=number] {
 }
 hr{
   border: none;
-  border-bottom: 1px solid var(--no4);
 }
 code{
   background-color: rgba(255,255,255,0.4);
@@ -42,8 +41,6 @@ code{
   body{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    background-color: var(--no1);
-    color: var(--no4);
     font-size: 16px;
     margin: 0;
     padding: 0;
