@@ -484,6 +484,16 @@ code{
     margin: 0px auto;
     text-align: center;
   }
+
+  .achieve-div2{
+    padding: 10px;
+  }
+  .achieve-div2 img{
+    display: block;
+    max-width: 90%;
+    margin: 0px auto;
+    text-align: center;
+  }
   .achieve-item{
     padding: 10px;
     margin: 10px;
