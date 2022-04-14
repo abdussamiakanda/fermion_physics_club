@@ -1,5 +1,4 @@
 :root {
-  --back: #202020;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -26,7 +25,6 @@ input[type=number] {
 }
 hr{
   border: none;
-  border-bottom: 1px solid var(--no4);
 }
 code{
   background-color: rgba(255,255,255,0.4);
@@ -42,8 +40,6 @@ code{
   body{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    background-color: var(--no1);
-    color: var(--no4);
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -259,8 +255,6 @@ code{
   body{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    background-color: var(--no1);
-    color: var(--no4);
     font-size: 12px;
     margin: 0;
     padding: 0;
@@ -313,8 +307,6 @@ code{
     border: 1px solid white;
     border-radius: 2px;
   }
-  .dropdown{
-  }
   .drop-content{
     display: none;
     box-shadow: 0px 3px 5px rgb(255, 255, 255, 0.5);
@@ -342,26 +334,25 @@ code{
   }
   .intro{
     color: white;
-    max-width: 1200px;
     margin: 0px auto;
     text-align: center;
-    padding: 70px 0px;
+    padding: 30px 0px;
   }
   .name{
-    font-size: 50px;
+    font-size: 25px;
     font-weight: bold;
   }
   .tag{
-    font-size: 20px;
+    font-size: 15px;
   }
   .more{
     display: inline-block;
     font-weight: bold;
     margin-top: 10px;
-    padding: 10px 15px;
+    padding: 5px 10px;
     color: black;
     background-color: white;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 5px;
   }
   .more:hover{
@@ -369,9 +360,8 @@ code{
     background-color: rgba(0,0,0,0);
   }
   .objective{
-    max-width: 1200px;
     margin: 0px auto;
-    padding: 40px 0px;
+    padding: 20px 0px;
     text-align: center;
   }
   .obj-name{
@@ -384,17 +374,17 @@ code{
     font-weight: bold;
   }
   .obj-name b{
-    font-size: 25px;
+    font-size: 18px;
   }
   .obj-div{
     display: flex;
     justify-content: space-around;
     align-items: stretch;
+    flex-wrap: wrap;
   }
   .obj-item{
-    padding: 10px;
-    margin: 0px 10px;
-    width: 1000px;
+    padding: 5px;
+    margin: 5px;
     box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
     border-radius: 5px;
     text-align: center;
