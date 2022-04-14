@@ -484,6 +484,10 @@ code{
     margin: 0px auto;
     text-align: center;
   }
+  .achieve-div p{
+    padding: 10px;
+    margin: 0;
+  }
 
   .achieve-div2{
     padding: 10px;
