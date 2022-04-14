@@ -274,6 +274,11 @@ code{
     align-items: flex-start;
   }
 
+  .post-image{
+    width:300px;
+    padding:10px;
+  }
+
 
   .course-item{
     padding: 0px 0px;
@@ -657,6 +662,11 @@ code{
   .more2:hover{
     color: white;
     background-color: darkgreen;
+  }
+
+  .post-image{
+    width:200px;
+    padding:10px;
   }
 
 
