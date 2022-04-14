@@ -108,10 +108,10 @@ code{
   .objective{
     max-width: 1200px;
     margin: 0px auto;
-    padding: 40px 0px;
+    padding: 30px 0px;
   }
   .obj-name{
-    padding-bottom: 30px;
+    padding-bottom: 10px;
   }
   .obj-name span{
     display: block;
@@ -335,12 +335,371 @@ code{
     margin: 8px 0px;
   }
 
+  .bars{
+    display: none;
+  }
+
+
+
+}
+
+
+@media screen and (min-width: 0em) and (max-width: 65em) {
+  html{
+    width:100%;
+    margin: 0px auto;
+  }
+  body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    width:100%;
+  }
+  .navigator{
+    font-size: 15px;
+    margin: 0px auto 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo img{
+    width: 120px;
+    margin-left: 5px;
+  }
+  .logo:hover{
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+    border-radius: 5px;
+  }
+  .bars{
+    font-size: 25px;
+    padding: 5px 12px;
+  }
+  .bars:hover{
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+    border-radius: 50%;
+  }
+  .dropdownmenu{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 6;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px 0px;
+    overflow: hidden
+  }
+  .nav-link{
+    display: block;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 2px;
+    text-align: center;
+  }
+  .nav-link:hover{
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+  }
+  .drop-content{
+    display: none;
+    box-shadow: 0px 3px 5px rgb(255, 255, 255, 0.5);
+    z-index: 3;
+  }
+  .dropdown:hover .drop-content {
+    display: block;
+  }
+  .drop-item{
+    color: white;
+    text-align: center;
+    display: block;
+    margin: 1px;
+  }
+  .drop-item:hover{
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+  }
+
+  .objective{
+    margin: 0px auto;
+    padding: 20px 0px;
+  }
+  .obj-name{
+    padding: 10px;
+  }
+  .obj-name span{
+    display: block;
+    color: green;
+    font-weight: bold;
+  }
+  .obj-name b{
+    font-size: 18px;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+  }
+  .obj-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+  }
+  .obj-item{
+    padding: 5px;
+    margin: 5px 10px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    text-align: center;
+  }
+  .obj-item b{
+    display: block;
+    padding: 0px;
+    margin: 0px 0px 10px 0px;
+    color: green;
+  }
+
+
+  .center{
+    text-align: center;
+  }
+  .center div{
+    padding: 5px;
+  }
+  .social{
+    margin: 0px 5px;
+  }
+  .calendar{
+    display: block;
+    margin: 0px auto;
+  }
+  .achieve-div img{
+    display: block;
+    max-width: 90%;
+    margin: 0px auto;
+    text-align: center;
+  }
+  .achieve-item{
+    padding: 10px;
+    margin: 10px;
+    color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .achieve-item:hover{
+    color: rgba(0, 0, 0, 1);
+    box-shadow: 0px 3px 8px rgba(0,0,255,0.5);
+  }
+  .achieve-item h3{
+    padding: 5px 0px;
+    margin: 0px;
+  }
+  .achieve-item span{
+    display: block;
+    color: green;
+  }
+
+
+  .team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .person{
+    padding: 5px 10px;
+    text-align: center;
+  }
+  .person img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+  }
+  .person2{
+    padding: 5px 10px;
+    text-align: center;
+  }
+  .person2 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+  }
+
+
+  .magz-item-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+  }
+  .magz-item-left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+  }
+  .div20{
+    width: 30%;
+    padding: 0px 5px;
+  }
+  .div20 img{
+    width: 100%;
+  }
+  .div80{
+    width: 70%;
+    padding: 0px 5px;
+  }
+  .div80 h2{
+    padding: 0px;
+    margin: 0px;
+  }
+  .button{
+    display: inline-block;
+    margin: 0px auto;
+    padding: 5px 10px;
+    background-color: darkgreen;
+    color: white;
+    border: 1px solid darkgreen;
+    border-radius: 5px;
+  }
+  .button:hover{
+    background-color: rgba(0,0,0,0);
+    color: darkgreen;
+  }
+  .flex{
+    display: flex;
+  }
+
+
+
+  .seminar-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+
+  .course-item{
+    padding: 0px 0px;
+    max-width: 280px;
+    font-size: 14px;
+    margin: 10px 10px;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .course-item:hover{
+    box-shadow: 0px 5px 5px rgba(256,0,0,0.5);
+  }
+  .course-item img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px 5px 0px 0px;
+  }
+  .course-item b{
+    display: block;
+    padding: 5px;
+    margin: 0px;
+    font-size: 18px;
+    color: green;
+  }
 
 
 
 
+  .course-item{
+    padding: 0px;
+    font-size: 12px;
+    margin: 5px 10px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .course-item:hover{
+    box-shadow: 0px 2px 5px rgba(256,0,0,0.5);
+  }
+  .course-item img{
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+  }
+  .course-item b{
+    display: block;
+    padding: 5px;
+    margin: 0px;
+    font-size: 15px;
+    color: green;
+  }
+  .more2{
+    display: inline-block;
+    font-weight: bold;
+    margin: 10px auto 0px auto;
+    padding: 5px 10px;
+    color: darkgreen;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid darkgreen;
+    border-radius: 5px;
+  }
+  .more2:hover{
+    color: white;
+    background-color: darkgreen;
+  }
 
 
+
+
+  .footer{
+    background-color: #343a40;
+    padding: 20px 0px;
+    text-align: center;
+    color: white;
+  }
+  .foot{
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    text-align: left;
+    flex-wrap: wrap;
+    padding: 0px 10px;
+    padding-bottom: 20px;
+  }
+  .foot b{
+    font-size: 15px;
+    display: block;
+    padding: 5px 0px;
+    margin: 0px;
+  }
+  .foot img{
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    border-radius: 50%;
+    width: 35px;
+  }
+  .foot1{
+    margin-bottom: 10px;
+  }
+
+  .hide{
+    display: none;
+  }
 
 
 
