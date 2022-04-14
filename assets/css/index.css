@@ -238,6 +238,9 @@ code{
     width: 50px;
   }
 
+  .bars{
+    display: none;
+  }
 
 
 
@@ -245,6 +248,234 @@ code{
 
 
 
+
+}
+
+@media screen and (min-width: 0em) and (max-width: 65em) {
+  html{
+    width:100%;
+    margin: 0px auto;
+  }
+  body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    background-color: var(--no1);
+    color: var(--no4);
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    width:100%;
+  }
+  .navigator{
+    font-size: 15px;
+    margin: 0px auto 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo img{
+    width: 200px;
+  }
+  .logo:hover{
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+  }
+  .bars{
+    font-size: 25px;
+    padding: 5px 12px;
+  }
+  .bars:hover{
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+    border-radius: 50%;
+  }
+  .dropdownmenu{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 6;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px 0px;
+  }
+  .nav-link{
+    display: block;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 2px;
+    text-align: center;
+  }
+  .nav-link:hover{
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+  }
+  .dropdown{
+  }
+  .drop-content{
+    display: none;
+    box-shadow: 0px 3px 5px rgb(255, 255, 255, 0.5);
+    z-index: 3;
+  }
+  .dropdown:hover .drop-content {
+    display: block;
+  }
+  .drop-item{
+    color: white;
+    text-align: center;
+    display: block;
+    margin: 1px;
+  }
+  .drop-item:hover{
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+  }
+  .introduction{
+    background-image: url("./../image/back.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .intro{
+    color: white;
+    max-width: 1200px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 70px 0px;
+  }
+  .name{
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .tag{
+    font-size: 20px;
+  }
+  .more{
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px 15px;
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+  .more:hover{
+    color: white;
+    background-color: rgba(0,0,0,0);
+  }
+  .objective{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 40px 0px;
+    text-align: center;
+  }
+  .obj-name{
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .obj-name span{
+    display: block;
+    color: green;
+    font-weight: bold;
+  }
+  .obj-name b{
+    font-size: 25px;
+  }
+  .obj-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+  .obj-item{
+    padding: 10px;
+    margin: 0px 10px;
+    width: 1000px;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    text-align: center;
+  }
+  .obj-item b{
+    display: block;
+    padding: 0px;
+    margin: 0px 0px 10px 0px;
+    color: green;
+  }
+  .course-item{
+    padding: 0px;
+    width: 1000px;
+    font-size: 14px;
+    margin: 0px 10px;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .course-item:hover{
+    box-shadow: 0px 5px 5px rgba(256,0,0,0.5);
+  }
+  .course-item img{
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+  }
+  .course-item b{
+    display: block;
+    padding: 5px;
+    margin: 0px;
+    font-size: 18px;
+    color: green;
+  }
+  .more2{
+    display: inline-block;
+    font-weight: bold;
+    margin: 20px auto 0px auto;
+    padding: 10px 15px;
+    color: darkgreen;
+    background-color: rgba(0,0,0,0);
+    border: 2px solid darkgreen;
+    border-radius: 5px;
+  }
+  .more2:hover{
+    color: white;
+    background-color: darkgreen;
+  }
+  .footer{
+    background-color: #343a40;
+    padding: 40px 0px;
+    text-align: center;
+    color: white;
+  }
+  .foot{
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    text-align: left;
+    padding: 0px 10px;
+    padding-bottom: 30px;
+  }
+  .foot b{
+    font-size: 20px;
+    display: block;
+    padding: 5px 0px;
+    margin: 0px;
+  }
+  .foot img{
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+  }
+
+  .hide{
+    display: none;
+  }
 
 
 

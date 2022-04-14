@@ -1,3 +1,8 @@
+function showMenu(){
+  document.getElementById('thebars').classList.add('hide');
+  document.getElementById('dropDownMenu').style.display = 'block';
+}
+
 function goTo(path){
   window.location.assign(path);
 }
