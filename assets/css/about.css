@@ -325,6 +325,9 @@ code{
     background-color: rgba(0,0,0,0);
     color: darkgreen;
   }
+  .padding{
+    margin: 5px;
+  }
   .flex{
     display: flex;
   }
@@ -675,6 +678,9 @@ code{
   .button:hover{
     background-color: rgba(0,0,0,0);
     color: darkgreen;
+  }
+  .padding{
+    margin: 5px;
   }
   .flex{
     display: flex;
