@@ -122,6 +122,7 @@ code{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    user-select: none;
   }
   .logo:hover{
     box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
@@ -448,6 +449,7 @@ code{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    user-select: none;
   }
   .logo img{
     width: 120px;
