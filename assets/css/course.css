@@ -227,6 +227,9 @@ code{
     border-radius: 50%;
     width: 50px;
   }
+  .bars{
+    display: none;
+  }
 
 
 
