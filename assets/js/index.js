@@ -23,6 +23,22 @@ function show(btn){
   }
 }
 
+
+document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+      // customised options
+      // • auto-render specific keys, e.g.:
+      delimiters: [
+          {left: '$$', right: '$$', display: true},
+          {left: '$', right: '$', display: false},
+          {left: '\\(', right: '\\)', display: false},
+          {left: '\\[', right: '\\]', display: true}
+      ],
+      // • rendering keys, e.g.:
+      throwOnError : false
+    });
+});
+
 var gallery = document.querySelector('#gallery');
 var getVal = function (elem, style) { return parseInt(window.getComputedStyle(elem).getPropertyValue(style)); };
 var getHeight = function (item) { return item.querySelector('.content').getBoundingClientRect().height; };
@@ -53,22 +69,5 @@ window.addEventListener('resize', resizeAll);
 gallery.querySelectorAll('.gallery-item').forEach(function (item) {
     item.addEventListener('click', function () {
         item.classList.toggle('full');
-    });
-});
-
-
-
-document.addEventListener("DOMContentLoaded", function() {
-    renderMathInElement(document.body, {
-      // customised options
-      // • auto-render specific keys, e.g.:
-      delimiters: [
-          {left: '$$', right: '$$', display: true},
-          {left: '$', right: '$', display: false},
-          {left: '\\(', right: '\\)', display: false},
-          {left: '\\[', right: '\\]', display: true}
-      ],
-      // • rendering keys, e.g.:
-      throwOnError : false
     });
 });
