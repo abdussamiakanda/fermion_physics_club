@@ -326,6 +326,15 @@ code{
     background-color: rgba(0,0,0,0);
     color: darkgreen;
   }
+  .button-alt{
+    display: inline-block;
+    margin: 0px auto;
+    padding: 8px 15px;
+    background-color: rgba(0,0,0,0);
+    color: darkgreen;
+    border: 2px solid darkgreen;
+    border-radius: 5px;
+  }
   .padding{
     margin: 5px;
   }
