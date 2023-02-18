@@ -271,6 +271,7 @@ code{
     display: block;
     margin: 0px auto;
     text-align: center;
+    object-fit: cover;
   }
   .person2{
     padding: 10px 20px;
